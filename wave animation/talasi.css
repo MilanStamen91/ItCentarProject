@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section .wave {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    bottom: 0;
+    left:0;
+    background: url('../images/line2.png');
+    animation: animate-reverse 20s linear infinite;
+}
+
+section .wave:before {
+    content: '';
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left:0;
+    background: url('../images/line3.png');
+    opacity: 0.4;
+    position: absolute;
+    animation: animate 30s linear infinite;
+}
+
+section .wave:after {
+    content: '';
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left:0;
+    background: url('../images/line1.png');
+    opacity: 0.6;
+    position: absolute;
+    animation-delay: -5s;
+    animation: animate 35s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 2220px;
+    }
+}
+
+@keyframes animate-reverse {
+    0% {
+        background-position: 2220px;
+    }
+    100% {
+        background-position: 0;
+    }
+}
