@@ -191,12 +191,11 @@ body {
     height: 100% !important;
     top: 20px; }
 
-  .fot_row {
-    position: absolute;
-    top: -90px; }
-
   .sm_text {
-    font-size: 7px; } }
+    font-size: 7px; }
+
+  .last {
+    top: 45px !important; } }
 footer li a {
   color: #000 !important; }
 

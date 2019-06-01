@@ -232,7 +232,7 @@ jQuery(document).ready(function($) {
           '<span style="color: white;background-color: rgba(34, 167, 240, 0.5);border-radius: 50%;padding: 10px 6px;">&#10230;</span>'
         ],
         responsive: {
-          600: {
+          200: {
             stagePadding: 0,
             items: 1,
             nav: true
