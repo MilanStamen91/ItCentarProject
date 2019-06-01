@@ -128,16 +128,20 @@ body {
     display: none; }
 
   .jumbotron {
-    left: 0; }
+    left: 0 !important;
+    top: 180px !important; }
 
   .jumbotron h1 {
-    font-size: 2em; }
+    font-size: 3em !important; }
 
   .jumbotron p {
-    font-size: 1em; }
+    font-size: 1.5em !important; }
 
-  .video {
-    margin-top: 270px; }
+  .rotate1 {
+    width: 50% !important; }
+
+  .rotate1:hover {
+    width: 50% !important; }
 
   .features1 {
     margin-top: 250px; }
@@ -146,23 +150,25 @@ body {
     margin-top: 70px;
     margin-bottom: 90px; }
 
+  .play_card {
+    display: none; }
+
+  .img-border img {
+    width: 100% !important;
+    height: 400px !important;
+    left: 0% !important; }
+
+  .image-play .icon-wrap {
+    left: 52% !important;
+    bottom: 70px !important; }
+
   #progress {
-    margin-top: 70px;
+    margin-top: -80px;
     left: 4px; }
 
   .wave {
     height: 290px;
     width: 110%; }
-
-  .img-border img,
-  .img-border-sm img {
-    height: 350px;
-    left: 0%;
-    width: 100%; }
-
-  .image-play .icon-wrap {
-    left: 50%;
-    bottom: 95px; }
 
   .donors {
     margin-top: 65px;
@@ -173,7 +179,24 @@ body {
 
   .story {
     width: 54%;
-    height: 50px; } }
+    height: 50px; }
+
+  .rotate_board {
+    width: 40% !important; }
+
+  .rotate_board:hover {
+    width: 40% !important; }
+
+  .map_card {
+    height: 100% !important;
+    top: 20px; }
+
+  .fot_row {
+    position: absolute;
+    top: -50px; } }
+footer li a {
+  color: #000 !important; }
+
 .pic_slide.site-blocks-cover.overlay.aos-init.aos-animate {
   height: 1010px; }
 
