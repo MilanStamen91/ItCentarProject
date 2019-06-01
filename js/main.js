@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
       }
 
       //Campaign Process
-      if (st == 1000) {
+      if (st == 900) {
           let prg = document.getElementById('progress-line');
           let percent = document.getElementById('percentCount');
           let num_count = document.getElementsByClassName('from')[0];
@@ -239,7 +239,7 @@ jQuery(document).ready(function($) {
           },
           1000: {
             stagePadding: 0,
-            items: 1,
+            items: 2,
             nav: true
           },
           1200: {
