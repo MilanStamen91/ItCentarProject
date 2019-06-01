@@ -54,20 +54,20 @@ body {
     height: 266px !important; }
 
   .rotate {
-    width: 110%; }
+    width: 110% !important; }
 
   .rotate:hover {
-    width: 110%; } }
+    width: 110% !important; } }
 @media (max-width: 800px) {
   #curve {
     top: 745px;
     right: 14px; }
 
   .rotate {
-    width: 65%; }
+    width: 65% !important; }
 
   .rotate:hover {
-    width: 65%; }
+    width: 65% !important; }
 
   .features1 {
     bottom: 225px !important; }
@@ -1753,5 +1753,4 @@ i.fas.fa-chevron-left.fa-1x {
   height: 100%;
   position: absolute;
   right: 35px; }
-
 /*# sourceMappingURL=style.css.map */
