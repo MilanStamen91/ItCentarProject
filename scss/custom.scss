@@ -259,11 +259,11 @@ body {
   
   .fot_row {
     position: absolute;
-    top: -70px;
+    top: -90px;
   }
 
   .sm_text {
-    font-size: 8px;
+    font-size: 7px;
   }
 }
 
@@ -707,6 +707,7 @@ input[type="button"] {
     height: 100%;
     width: 100%;
     z-index: 3;
+    overflow: hidden;
   }
   .offcanvas-menu .site-wrap:before {
     opacity: 1;
