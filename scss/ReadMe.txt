@@ -1,0 +1,1 @@
+U ovom scss fajlu sam pisao sve samo ne scss :), kada sam dobio projekat u brzini sam krenuo da radim sve u css-u i nakon toga sam nastavio, jedina dobra stvar je sto uvek mogu da compajlujem odavde pomocu Koale i dobiti autoprefixe i kompresovati css fajl. 

@@ -28,26 +28,6 @@ body {
   z-index: 2;
 }
 
-//Button in Meni
-
-.rotate {
-  font-size: 15px;
-  font-weight: bold;
-  color: blue;
-  width: 150%;
-  height:50px;
-  text-transform: uppercase;
-  border-radius: 10px;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  transform: rotate(1deg);
-    transform-origin: bottom right;
-    overflow: hidden;
-  background-color: white;
-  transition: transform .5s ease-in-out;
- }
-
 //Responsiveness
 
 @media (min-width: 2560px) {
@@ -274,6 +254,26 @@ footer li a {
 .pic_slide.site-blocks-cover.overlay.aos-init.aos-animate {
   height: 1010px;
 }
+
+//Button in Meni
+
+.rotate {
+  font-size: 15px;
+  font-weight: bold;
+  color: blue;
+  width: 150%;
+  height:50px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  transform: rotate(1deg);
+    transform-origin: bottom right;
+    overflow: hidden;
+  background-color: white;
+  transition: transform .5s ease-in-out;
+ }
 
  .rotate:after {
   content: "";
@@ -1851,10 +1851,6 @@ input[type="button"] {
     height: 500px; 
     position: relative;
   }
-
-  // .li_list ul > li > a {
-  //   color: black!important;
-  // }
 
   .down_logo {
     top: 15px;

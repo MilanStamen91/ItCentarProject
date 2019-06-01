@@ -1,0 +1,39 @@
+ body{
+    background-color:#222;
+    }
+ 
+ #rotate{
+    position: absolute; 
+    vertical-align:top;
+    margin-top:27px;
+    width:410px;height:150px;
+    transform:rotate(3deg);
+    right:0;
+    top: -16px;    
+  }
+
+  #rotate1{
+    position: absolute;
+    vertical-align:top;
+    margin-top:30px;
+    width:420px;height:152px;
+    transform:rotate(0deg);
+    right: -14px;
+    bottom: -5px;
+  }
+  
+  span {
+    position: relative;
+    cursor:pointer;
+    min-height:30px;
+    position:relative;
+      border-radius: 8px 8px 8px 13px;
+    padding: 4px 8px;
+    margin-left:20px;	
+    color: #fff;
+      letter-spacing: 2px;
+      background: linear-gradient(#333,#666);
+  }
+  
+  
+ 

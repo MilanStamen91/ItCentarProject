@@ -20,28 +20,6 @@ body {
   top: 650px;
   z-index: 2; }
 
-.rotate {
-  font-size: 15px;
-  font-weight: bold;
-  color: blue;
-  width: 150%;
-  height: 50px;
-  text-transform: uppercase;
-  border-radius: 10px;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  -webkit-transform: rotate(1deg);
-          transform: rotate(1deg);
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
-  overflow: hidden;
-  background-color: white;
-  -webkit-transition: -webkit-transform .5s ease-in-out;
-  transition: -webkit-transform .5s ease-in-out;
-  transition: transform .5s ease-in-out;
-  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out; }
-
 @media (min-width: 2560px) {
   #progress {
     top: 440px; }
@@ -201,6 +179,28 @@ footer li a {
 
 .pic_slide.site-blocks-cover.overlay.aos-init.aos-animate {
   height: 1010px; }
+
+.rotate {
+  font-size: 15px;
+  font-weight: bold;
+  color: blue;
+  width: 150%;
+  height: 50px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+  overflow: hidden;
+  background-color: white;
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out; }
 
 .rotate:after {
   content: "";

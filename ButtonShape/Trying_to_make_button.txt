@@ -1,0 +1,3 @@
+Pokusavam da dobijem tacan izgled dugmeta pomocu rotate() i https://bennettfeely.com/clippy/.
+
+Takodje sam razmisljao o SVG pristupu kao sto sam uradio u projektu, postavio sam obik koji sam nacrtao u ilustratoru ispred slika koje slajduju.
