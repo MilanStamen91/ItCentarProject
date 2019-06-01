@@ -237,7 +237,7 @@ jQuery(document).ready(function($) {
             items: 1,
             nav: true
           },
-          1000: {
+          1100: {
             stagePadding: 0,
             items: 2,
             nav: true

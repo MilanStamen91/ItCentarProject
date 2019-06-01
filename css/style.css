@@ -175,7 +175,7 @@ body {
     text-align: center; }
 
   .donors h2 {
-    width: 100%; }
+    width: 100% !important; }
 
   .story {
     width: 54%;
@@ -1648,7 +1648,7 @@ i.fas.fa-chevron-left.fa-1x {
   width: 60%; }
 
 .nonloop-block-15 .owl-item {
-  width: 450px !important; }
+  width: 500px !important; }
 
 .story {
   width: 101%;
