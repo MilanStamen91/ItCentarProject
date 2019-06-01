@@ -75,6 +75,7 @@ body {
   #progress {
     top: 220px;
   }
+  
 }
 
 @media (max-width: 1024px) {
@@ -83,14 +84,33 @@ body {
     top: 720px;
   }
 
-  // i.fas.fa-chevron-left.fa-1x {
-  //   left: -10px;
-  // }
+  i.fas.fa-chevron-left.fa-1x {
+    left: -10px!important;
+    bottom: 10px;
 
-  // i.fas.fa-chevron-right.fa-1x {
-  //   left: 170px;
-  // }
+  }
 
+  i.fas.fa-chevron-right.fa-1x {
+    left: 170px!important;
+    bottom: 10px;
+
+  }
+
+  .dir {
+    height: 266px!important;
+  }
+  
+  .dir1 {
+    height: 266px!important;
+  }
+
+  .rotate {
+    width: 110%;
+  }
+
+  .rotate:hover {
+    width: 110%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -133,17 +153,26 @@ body {
     font-size: 10px;
   }
 
+  i.fas.fa-bars.fa-2x {
+    margin-right: 50px;
+    color: rgb(207, 224, 226);
+  }
+
 }
 
 @media (max-width: 425px) {
+
+  i.fas.fa-bars.fa-2x {
+    margin-right: 50px;
+    color: rgb(207, 224, 226);
+  }
   
   #site-logo {
-    width: 100px;
+    width: 200px;
   }
 
   #curve {
-    top: 745px;
-    right: 14px;
+    display: none;
   }
   
   .jumbotron {
@@ -167,7 +196,12 @@ body {
   }
 
   .features1 {
-    margin-top: 350px;
+    margin-top: 250px;
+  }
+
+  .features2 {
+    margin-top: 70px;
+    margin-bottom: 90px;
   }
 
   #progress {
@@ -1604,7 +1638,17 @@ input[type="button"] {
   }
 
 .dir {
-  height: 250px;
+  height: 300px;
+  max-width: 100%;
+}
+
+.dir1 {
+  height: 300px;
+  max-width: 100%;
+}
+
+.dir2 {
+  height: 266px;
   max-width: 100%;
 }
 
@@ -1619,7 +1663,7 @@ input[type="button"] {
     text-transform: uppercase;
     border-radius: 10px;
     position: relative;
-    top: 0px;
+    top: -35px;
     left: 0px;
     transform: rotate(1deg);
     transform-origin: bottom right;
@@ -1655,7 +1699,7 @@ input[type="button"] {
    text-transform: uppercase;
    border-radius: 10px;
    position: relative;
-   top: 0px;
+   top: -35px;
    left: 0px;
    transform: rotate(-1.5deg);
      transform-origin: bottom left;
