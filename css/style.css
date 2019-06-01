@@ -1721,6 +1721,12 @@ i.fas.fa-chevron-left.fa-1x {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.don_card {
+  opacity: 0.4; }
+
+.active .don_card {
+  opacity: 1; }
+
 .don_card .text {
   background: #7db9e8;
   background: -webkit-gradient(linear, left top, right top, from(#7db9e8), color-stop(0%, #1e5799), color-stop(0%, #2989d8), color-stop(21%, #1e5799), color-stop(21%, #1e5799), color-stop(48%, #1e5799), color-stop(48%, #1e5799), color-stop(98%, #1e5799), color-stop(98%, #1e5799), color-stop(99%, #1e5799), color-stop(99%, #2989d8), color-stop(99%, #1e5799), color-stop(100%, #1e5799), to(#1e5799));

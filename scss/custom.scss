@@ -1960,6 +1960,14 @@ input[type="button"] {
     background-size: cover;
   }
 
+  .don_card {
+    opacity: 0.4;
+  }
+
+  .active .don_card {
+    opacity: 1;
+  }
+
   .don_card .text {
     background: #7db9e8; 
     background: -moz-linear-gradient(left,  #7db9e8 0%, #1e5799 0%, #2989d8 0%, #1e5799 21%, #1e5799 21%, #1e5799 48%, #1e5799 48%,   #1e5799 98%, #1e5799 98%, #1e5799 99%, #2989d8 99%, #1e5799 99%, #1e5799 100%, #1e5799 100%); 
