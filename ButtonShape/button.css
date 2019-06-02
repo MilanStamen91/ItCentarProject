@@ -10,6 +10,7 @@
     transform:rotate(3deg);
     right:0;
     top: -16px;    
+    border-radius: 8px 70px 20px 13px;
   }
 
   #rotate1{
@@ -20,6 +21,7 @@
     transform:rotate(0deg);
     right: -14px;
     bottom: -5px;
+    border-radius: 8px 8px 80px 20px;
   }
   
   span {
@@ -27,7 +29,6 @@
     cursor:pointer;
     min-height:30px;
     position:relative;
-      border-radius: 8px 8px 8px 13px;
     padding: 4px 8px;
     margin-left:20px;	
     color: #fff;
