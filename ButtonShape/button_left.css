@@ -5,10 +5,10 @@ body{
  #rotate{
     position: absolute; 
     vertical-align:top;
-    margin-top:29px;
+    margin-top:22px;
     width:416px;height:150px;
     transform:rotate(-4deg);
-    right:0;
+    right:-14px;
     top: -16px;    
     border-radius: 10px 80px 70px 20px;
   }
@@ -22,7 +22,17 @@ body{
     right: -14px;
     bottom: -11.5px;
     border-radius: 10px 10px 20px 120px;
+    z-index: 1;
+    color: blue;
   }
+
+  #rotate1 p {
+    position: absolute;
+    top: 12%;
+    right: 20%;
+    font-size: 40px;
+    font-weight: 600;
+}
   
   span {
     color: white;
