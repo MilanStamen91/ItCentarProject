@@ -2004,3 +2004,127 @@ input[type="button"] {
   right: 35px;
 }
 
+ //Dugme - Desna ivica pokusaj adaptacije
+
+ #desno {
+  width:50%;
+  height:49px;  
+  position:relative;
+}
+
+#rot{
+  position: absolute;
+  vertical-align: top;
+  margin-top: 24px;
+  width: 110%;
+  height: 118%;
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+  right: 27px;
+  top: -24px;
+  border-radius: 49px 9px 20px 22px;
+  color: blue;
+  transition: transform .5s ease-in-out;
+  }
+
+  #rot1{
+    position: absolute;
+    vertical-align: top;
+    margin-top: 30px;
+    width: 125%;
+    height: 120%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    right: 33px;
+    bottom: 35px;
+    border-radius: 15px 10px 50px 10px;
+    transition: border-radius .5s ease-in-out;
+    z-index: 1;
+  }
+
+  #rot1 p {
+    position: absolute;
+    top: 23%;
+    right: 15%;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-4deg);
+    transition: transform .5s ease-in-out;
+
+  }
+  
+  #desno span {
+    color: white;
+    position: relative;
+    cursor:pointer;
+    min-height:30px;
+    position:relative;
+    padding: 4px 8px;
+    margin-left:20px;	
+    color: blue;
+    letter-spacing: 2px;
+    background: linear-gradient(45deg, #fff722, #ff26f9);
+  }
+
+  //Dugme - Leva ivica pokusaj adaptacije
+
+  #levo {
+    width:50%;
+    height:49px;  
+    position:relative;
+  }
+  
+  #rott{
+    position: absolute;
+    vertical-align: top;
+    margin-top: 24px;
+    width: 110%;
+    height: 118%;
+    -webkit-transform: rotate(4deg);
+    transform: rotate(-4deg);
+    right: 27px;
+    top: -22px;
+    border-radius: 28px 70px 20px 25px;
+    color: blue;
+    }
+  
+    #rott1{
+      position: absolute;
+    vertical-align: top;
+    margin-top: 30px;
+    width: 125%;
+    height: 120%;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    right: 33px;
+    bottom: 35px;
+    border-radius: 10px 10px 10px 28px;
+    }
+  
+    #rott1 p {
+      position: absolute;
+    top: 23%;
+    right: 15%;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(4deg);
+  
+    }
+    
+  #levo span {
+      color: white;
+      position: relative;
+      cursor:pointer;
+      min-height:30px;
+      position:relative;
+      padding: 4px 8px;
+      margin-left:20px;	
+      color: blue;
+      letter-spacing: 2px;
+      background: linear-gradient(rgb(252, 252, 252),rgb(239, 240, 243));
+    }
+
+
+
