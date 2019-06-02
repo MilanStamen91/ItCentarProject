@@ -1,0 +1,19 @@
+-	Header menu fiksiran, kada se pocne sa skrolovanjem menu menja boju u belu, linkovi I logo u plavu, DONATE NOW dugme u narandzastu. Kada se vratim na vrh sajta, meni ponovo izgubi belu boju pozadine I svi linkovi se vracaju u belo.
+
+-	Slike iza plave maske se smenjuju na nekoliko sekundi (2-3 razlicite slike) – tekst ostaje isti, ne pomera se.
+
+-	Dugmici na hover menjaju perspektivu uz transition animaciju (leva strana dugmeta postaje veca od desne).
+
+-	Video section – play dugme pulsira (siri se transparentni “talas” oko njega). Na hover se oboji u belo.
+
+-	Klikom na PLAY dugme se otvara modal I pusta se video sa youtube-a
+
+-	Campaign Progress – kada sekcija bude u fokusu progress bar se popuni do 83% a odbrojavaju se vrednosti od 0 do 498M levo. Desno 600M ostaje “zakucano”.
+
+-	Grafici u pozadini ove sekcije su animirani – talasaju
+
+-	What our donors says – pomeraju se za po jedan. Uvek je jedan bled I na pola presecen.
+
+-	Board of directors – slajduju se za po jedan (jedan novi dodje, jedna stari nestane).
+
+-	Snazzy map sa custom pinom (nije slika). 
