@@ -1624,8 +1624,9 @@ i.fas.fa-chevron-left.fa-1x {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 );
   height: 80%;
   width: 100%;
-  position: relative;
-  bottom: 110px; }
+  bottom: 110px;
+  -webkit-transform: perspective(60px) rotateY(-0.3deg);
+          transform: perspective(60px) rotateY(-0.3deg); }
 
 .map_card .card-body {
   color: white; }
@@ -1753,4 +1754,5 @@ i.fas.fa-chevron-left.fa-1x {
   height: 100%;
   position: absolute;
   right: 35px; }
+
 /*# sourceMappingURL=style.css.map */

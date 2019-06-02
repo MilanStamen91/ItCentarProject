@@ -1833,8 +1833,8 @@ input[type="button"] {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 ); 
     height: 80%;
     width: 100%;
-    position: relative;
     bottom: 110px;
+    transform: perspective( 60px ) rotateY( -0.3deg );
    }
 
    .map_card .card-body {
